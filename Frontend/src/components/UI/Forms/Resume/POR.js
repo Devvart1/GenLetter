@@ -75,29 +75,15 @@ const POR = (props) => {
                     <button type='button' className='add-btn' onClick={subtractButton}>-</button>
                 </span>
             </div>
+            <div>
+         
+            </div>
             <div className='buttons d-flex justify-content-between'>
                 <span className='btn-left' onClick={backForm}>
                     <Button content="Previous" />
                 </span>
 
-                <div className="radio-buttons Button_btn__Anift">
-                    <div className='d-flex'>
-                        <input
-                            className='cursor-pointer'
-                            style={{ width: "10%" }}
-                            type="radio"
-                            name="option"
-                            value="resume2"
-                            id='resume2'
-                            checked={selectedOption === "resume2"}
-                            onChange={handleOptionChange}
-                        />
-                        <span style={{ width: "70%" }}>
-                            Single-Column
-                        </span>
-                    </div>
-
-                    <div className='d-flex'>
+                    <div className='d-flex btn'>
                         <input
                             className='cursor-pointer'
                             type="radio"
@@ -113,6 +99,24 @@ const POR = (props) => {
                             Multi-Column
                         </span>
                     </div>
+                <div className="radio-buttons Button_btn__Anift">
+                    <div className='d-flex btn'>
+
+                        <input
+                            className='cursor-pointer'
+                            style={{ width: "10%" }}
+                            type="radio"
+                            name="option"
+                            value="resume2"
+                            id='resume2'
+                            checked={selectedOption === "resume2"}
+                            onChange={handleOptionChange}
+                        />
+                        <span style={{ width: "70%" }}>
+                            Single-Column
+                        </span>
+                    </div>
+
 
 
                 </div>

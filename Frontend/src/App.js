@@ -17,7 +17,7 @@ function App() {
 
   const [user, setUser] = useState(null);
   const [resume, setResume] = useState(null);
-  const [offerLetter, setOfferLetter] = useState(null);
+  const [offerLetter, setOfferLetter] = useState(null );
 
   const getUser = async () => {
     try {
